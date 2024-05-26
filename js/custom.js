@@ -53,7 +53,7 @@ $('.owl-filter-bar').on('click', '.item', function (e) {
 /** google_map js **/
 function myMap() {
     var mapProp = {
-        center: new google.maps.LatLng(40.712775, -74.005973),
+        center: new google.maps.LatLng(-1.2864454, 36.8795),
         zoom: 18,
     };
     var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
